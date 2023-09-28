@@ -1,8 +1,7 @@
-/* #f9977b 
-#2e2f43
-#fee6c3
-#ffffff */
-
+/* #f9977b warna coklat muda
+#2e2f43 warna biru tua
+#fee6c3 warna cream
+#ffffff warna putih netral*/
 
 * {
     margin: 0;
@@ -19,18 +18,19 @@
 
 nav {
     width: 100%;
-    height: 50px;
+    height: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 80px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     z-index: 3;
+    position: relative;
 }
 
 .filter {
     background-color: black;
-    opacity: 50%;
+    opacity: 80%;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -41,6 +41,7 @@ nav {
     display: inline-block;
     font-size: 50px;
     color: #f9977b;
+    font-weight: bold;
 }
 
 #J {
@@ -67,10 +68,25 @@ li {
 
 a {
     text-decoration: none;
-    color: #f9977b ;
+    color: #f9977b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
 }
 
 a:hover {
     color: white;
 }
 
+.middle {
+    width: 100%;
+    height: 75%;
+}
+
+footer {
+    color: #ffffff;
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
