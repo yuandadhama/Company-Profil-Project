@@ -213,18 +213,18 @@ form > h3 {
 }
 
 form > button {
-  margin-top: 30px;
-  padding: 5px 10px;
-  border: 1px solid #2e2f43;
-  border-radius: 5px;
-  color: #fee6c3;
-  background: #2e2f43;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-weight: 500;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  color: #2e2f43;
+  background-color: #f9977b;
+  border: 1px solid #f9977b;
+  border-radius: 100px;
+  font-size: 1rem;
+  margin-top: 20px;
 }
 
 form > button:hover {
+  opacity: 70%;
   cursor: pointer;
-  opacity: 80%;
 }
